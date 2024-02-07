@@ -2,7 +2,7 @@ import React from 'react';
 import ContactCard from './Contactcard';
 
 const contactList =(props) =>{
-    if(props===0) return;
+   // if(props===0) return;
    console.log(props);
     const deleteContactHandler =(id) => {
         props.getContactId(id);
